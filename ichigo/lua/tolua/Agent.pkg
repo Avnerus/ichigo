@@ -1,0 +1,11 @@
+namespace ichigo {
+        
+    
+    class Agent {
+
+        
+        virtual Agent      *findByName(std::string name);
+        std::string         getName();
+
+    };    
+}

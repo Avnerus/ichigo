@@ -1,0 +1,15 @@
+{
+    "type" : "Nature",
+    "name" : "nature",
+    "position" : [-80, 0],
+    "scale" : 1,
+    "angle" : 0.0,
+    "zOrder" : 0,
+    "maxBeetleSwarmLevel" : 3,
+    "children" :
+    [
+        {
+            "useFile" : "TreeMap.json"
+        }
+    ]
+}

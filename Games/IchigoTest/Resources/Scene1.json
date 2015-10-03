@@ -1,0 +1,93 @@
+{
+    "type" : "MultitouchScene",
+    "name" : "scene1",
+    "position" : [0, 0],
+    "scale" : 1.0,
+    "angle" : 0.0,
+    "bgColor" : [110, 80, 170, 255],
+    "children" :
+    [
+        {
+            "type" : "MainLayer",
+            "name" : "mainLayer",
+            "position" : [0, 0],
+            "scale" : 1,
+            "angle" : 0.0,
+            "zOrder" : 0,
+            "clipToBounds" : false,
+            "clippingSize" : [480, 320],
+            "viewportPosMultiplier" : [1.0, 1.0],
+            "children" :
+            [
+                {
+                    "type" : "Item",
+                    "name" : "item1",
+                    "position" : [330, 160],
+                    "//radius" : 1.0,
+                    "scale" : 0.3,
+                    "angle" : 0.0,
+                    "zOrder" : 6,
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "Avner1",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "pic",
+                    "radiusFromWidth" : true
+                },
+                {
+                    "type" : "Item",
+                    "name" : "item2",
+                    "position" : [150, 160],
+                    "//radius" : 1.2,
+                    "scale" : 0.3,
+                    "angle" : 0.0,
+                    "zOrder" : 0,
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "Avner2",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "pic",
+                    "radiusFromWidth" : true
+                }
+            ]
+        },
+        {   
+            "type" : "MainLayer",
+            "name" : "UIOverlay",
+            "zOrder" : 5,
+            "viewportPosMultiplier" : [0, 0],
+            "children" :
+            [
+                {
+                    "type" : "Button",
+                    "name" : "backButton",
+                    "position" : [60, 60],
+                    "radiusFromWidth" : true,
+                    "scale" : 0.25,
+                    "animations" :
+                    [
+                        {
+                            "name" : "up",
+                            "frame" : "BackButton_up",
+                            "ext" : "png"
+                        },
+                        {
+                            "name" : "down",
+                            "frame" : "BackButton_down",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "up"
+                }
+            ]
+        }
+    ]
+}

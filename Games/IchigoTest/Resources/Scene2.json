@@ -1,0 +1,331 @@
+{
+    "type" : "ScrollingScene",
+    "name" : "scene2",
+    "position" : [310, 0],
+    "children" :
+    [
+        {
+            "type" : "MainLayer",
+            "name" : "layer1",
+            "zOrder" : 0,
+            "viewportPosMultiplier" : [0.2, 0.2],
+            "children" :
+            [
+                {
+                    "type" : "Sprite",
+                    "position" : [200, 150],
+                    "scale" : 0.7,
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "Scene2l1",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "pic"
+                }
+            ]
+        },
+        {
+            "type" : "MainLayer",
+            "name" : "layer2",
+            "zOrder" : 1,
+            "viewportPosMultiplier" : [0.3, 0.3],
+            "children" :
+            [
+                {
+                    "type" : "Sprite",
+                    "position" : [200, 150],
+                    "scale" : 0.75,
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "Scene2l2",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "pic"
+                }
+            ]
+        },
+        {
+            "type" : "MainLayer",
+            "name" : "layer3",
+            "zOrder" : 2,
+            "viewportPosMultiplier" : [0.4, 0.4],
+            "children" :
+            [
+                {
+                    "type" : "Sprite",
+                    "position" : [200, 150],
+                    "scale" : 0.8,
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "Scene2l3",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "pic"
+                }
+            ]
+        },
+        {
+            "type" : "MainLayer",
+            "name" : "layer4",
+            "zOrder" : 3,
+            "viewportPosMultiplier" : [0.8, 0.8],
+            "children" :
+            [
+                {
+                    "type" : "Sprite",
+                    "position" : [200, 140],
+                    "scale" : 0.95,
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "Scene2l4",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "pic"
+                },
+                {
+                    "type" : "Sprite",
+                    "position" : [0, 140],
+                    "scale" : 1.0,
+                    "loadAtlas" : "Scene2Arrow.plist",
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "Scene2Arrow",
+                            "ext" : "png",
+                            "frames" : 10,
+                            "delay" : 0.1,
+                            "loop" : true,
+                            "alert" : false
+                        }
+                    ],
+                    "firstAnimation" : "pic"
+                }
+            ]
+        },
+        {
+            "type" : "MainLayer",
+            "name" : "layer5",
+            "zOrder" : 4,
+            "viewportPosMultiplier" : [1, 1],
+            "children" :
+            [
+                {
+                    "type" : "Sprite",
+                    "position" : [200, 150],
+                    "scale" : 1.0,
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "Scene2l5",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "pic"
+                },
+                {
+                    "type" : "Tzahi",
+                    "name" : "tzahi",
+                    "position" : [200, 105],
+                    "scale" : 0.5,
+                    "animations" :
+                    [
+                        {   
+                            "name" : "stand",
+                            "frame" : "TzahiStand",
+                            "ext" : "png"
+                        },
+                        {
+                            "name" : "jump",
+                            "frame" : "TzahiJump",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "stand",
+                    "radius" : 90,
+                    "radiusFromWidth" : false,
+                    "children" :
+                    [
+                        {
+                            "type" : "Sprite",
+                            "name" : "ouch",
+                            "position" : [100, 200],
+                            "scale" : 0.5,
+                            "isVisible" : false,
+                            "radius" : 0,
+                            "animations" :
+                            [
+                                {
+                                    "name" : "pic",
+                                    "frame" : "Ouch",
+                                    "ext" : "png"
+                                }
+                            ],
+                            "firstAnimation" : "pic"
+                        }
+                    ]
+                },
+                {
+                    "type" : "Button",
+                    "name" : "start",
+                    "position" : [450, 105],
+                    "scale" : 0.7,
+                    "radius" : 60,
+                    "animations" :
+                    [
+                        {
+                            "name" : "up",
+                            "frame" : "CyberStart_up",
+                            "ext" : "png"
+                        },
+                        {
+                            "name" : "down",
+                            "frame" : "CyberStart_down",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "up"
+                },
+                {
+                    "type" : "Safe",
+                    "name" : "safe",
+                    "position" : [800, 80],
+                    "scale" : 0.7,
+                    "radius" : 20,
+                    "radiusFromWidth" : false,
+                    "animations" :
+                    [
+                        {
+                            "name" : "safe",
+                            "frame" : "Safe",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "safe"
+                }
+            ]
+        },
+        {
+            "type" : "MainLayer",
+            "name" : "layer6",
+            "zOrder" : 5,
+            "viewportPosMultiplier" : [1.5, 1.5],
+            "children" :
+            [
+                {
+                    "type" : "Sprite",
+                    "position" : [90, 80],
+                    "scale" : 1.1,
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "Scene2l6",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "pic"
+                }
+            ]
+        },
+        {   
+            "type" : "MainLayer",
+            "name" : "staticUI",
+            "zOrder" : 10,
+            "viewportPosMultiplier" : [0, 0],
+            "children" :
+            [
+                {
+                    "type" : "Button",
+                    "name" : "backButton",
+                    "position" : [60, 260],
+                    "radiusFromWidth" : true,
+                    "scale" : 0.25,
+                    "animations" :
+                    [
+                        {
+                            "name" : "up",
+                            "frame" : "BackButton_up",
+                            "ext" : "png"
+                        },
+                        {
+                            "name" : "down",
+                            "frame" : "BackButton_down",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "up"
+                },
+                {
+                    "type" : "Sprite",
+                    "name" : "hits",
+                    "position" : [352, 288],
+                    "scale" : 0.5,
+                    "animations" :
+                    [
+                        {
+                            "name" : "hit0",
+                            "frame" : "Lives0",
+                            "ext" : "png"
+                        },
+                        {
+                            "name" : "hit1",
+                            "frame" : "Lives1",
+                            "ext" : "png"
+                        },
+                        {
+                            "name" : "hit2",
+                            "frame" : "Lives2",
+                            "ext" : "png"
+                        },
+                        {
+                            "name" : "hit3",
+                            "frame" : "Lives3",
+                            "ext" : "png"
+                        },
+                        {
+                            "name" : "hit4",
+                            "frame" : "Lives4",
+                            "ext" : "png"
+                        },
+                        {
+                            "name" : "hit5",
+                            "frame" : "Lives5",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "hit0"
+                },
+                {
+                    "type" : "Sprite",
+                    "name" : "tryAgain",
+                    "position" : [240, 160],
+                    "scale" : 0.65,
+                    "isVisible" : false,
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "TryAgain",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "pic"
+                }
+            ]
+        }
+    ]
+}

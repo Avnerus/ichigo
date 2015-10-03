@@ -1,0 +1,37 @@
+{
+    "type" : "Sprite",
+    "zOrder" : 2,
+    "loadAtlas" : "LiftDoors.plist",
+    "animations" :
+    [
+        {
+            "name" : "closed",
+            "frame" : "LiftClose09",
+            "ext" : "png"
+        },
+        {
+            "name" : "open",
+            "frame" : "LiftOpen09",
+            "ext" : "png"
+        },
+        {
+            "name" : "closing",
+            "frame" : "LiftClose",
+            "ext" : "png",
+            "frames" : 10,
+            "delay" : 0.085,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "opening",
+            "frame" : "LiftOpen",
+            "ext" : "png",
+            "frames" : 10,
+            "delay" : 0.085,
+            "loop" : false,
+            "alert" :true
+        }
+    ],
+    "firstAnimation" : "closed"
+}

@@ -1,0 +1,13 @@
+#include "Agent.h"
+
+namespace ichigo {
+        
+    class Actor : public ichigo::Agent {
+
+    public:
+        
+        Actor();
+        virtual ~Actor();        
+
+    };    
+}

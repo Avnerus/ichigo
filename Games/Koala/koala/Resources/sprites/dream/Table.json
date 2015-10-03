@@ -1,0 +1,16 @@
+{
+    "type" : "Sprite",
+    "zOrder" : 4,
+    "position" : [0, -90],
+    "animations" :
+    [
+        {
+            "name" : "idle",
+            "frame" : "OfficeObj2",
+            "ext" : "png"
+        }
+     ],
+    "firstAnimation" : "idle",
+    "interactionPointX" : 10,
+    "itemAnchor" : [60, 105]
+}

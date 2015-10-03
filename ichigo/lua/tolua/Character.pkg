@@ -1,0 +1,20 @@
+#include "Actor.h"
+
+
+namespace ichigo {
+        
+    class Character : public ichigo::Actor {
+
+    public:
+        
+        Character();
+        virtual ~Character(); 
+        
+        virtual void say(std::string text);
+        
+      
+    };    
+}
+
+
+#endif // __ICHIGO_CHARACTER_H__

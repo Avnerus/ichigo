@@ -1,0 +1,36 @@
+{
+    "config" :
+    [
+     {"name":"SCENES_FILENAME", "type":"string", "value":"itScene.json"},
+     
+     {"name":"JUMP_SPEED", "type":"float", "value":2.0},
+     {"name":"JUMP_HEIGHT", "type":"float", "value":100.0},
+     
+     {"name":"SAFE_SPEED", "type":"float", "value":-300.0},
+     {"name":"COLLISION_IGNORE_TIME", "type":"float", "value":1.0},
+     {"name":"TRY_AGAIN_TIME", "type":"float", "value":3.0},
+     {"name":"SAFE_END_X", "type":"float", "value":-500.0},
+     {"name":"MAX_HITS", "type":"int", "value":5},
+     
+     {"name":"REALITY_SWITCHER_MARGIN", "type":"float", "value":25.0},
+     {"name":"REALITY_SWITCHER_ANIM_SPEED", "type":"float", "value":300.0},
+     {"name":"REALITY_SWITCHER_BORDER_WIDTH", "type":"float", "value":10.0},
+     
+     {"name":"OFFICE_TILE_LIFT", "type":"string", "value":"03"},
+     {"name":"OFFICE_INTERACTION_DRAG_THRESHOLD", "type":"float", "value":3.0},
+     {"name":"OFFICE_MIN_X", "type":"float", "value":-50.0},
+     {"name":"OFFICE_MAX_X", "type":"float", "value":1630.0},
+     {"name":"OFFICE_LIFT_ANIM", "type":"string", "value":"LiftDoors.json"},
+     {"name":"OFFICE_LIFT_OFFSET_X", "type":"float", "value":-30},
+     {"name":"OFFICE_LIFT_OFFSET_Y", "type":"float", "value":26},
+     {"name":"OFFICE_LIFT_WAIT_MAX", "type":"float", "value":7.0},
+     {"name":"OFFICE_LIFT_FLOOR_TIME", "type":"float", "value":1.0},
+     
+     {"name":"DKOALA_WALK_SPEED", "type":"float", "value":40.0},
+     {"name":"DKOALA_MOVE_THRESHOLD", "type":"float", "value":30.0},
+     {"name":"DKOALA_LIFT_INSIDE_X", "type":"float", "value":-30.0},
+     {"name":"DKOALA_LIFT_INSIDE_Y", "type":"float", "value":0.0},
+     {"name":"DKOALA_LIFT_ENTRY_X", "type":"float", "value":10.0},
+     {"name":"DKOALA_LIFT_ENTRY_Y", "type":"float", "value":-20.0}
+    ]
+}

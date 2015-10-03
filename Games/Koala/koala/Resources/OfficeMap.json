@@ -1,0 +1,75 @@
+{
+    "type" : "OfficeMap",
+    "name" : "office",
+    "position" : [-240, -160],
+    "scale" : 1.0,
+    "angle" : 0.0,
+    "zOrder" : 0,
+    "firstArea" : "main",
+    "children" :
+    [
+        {
+            "type" : "AreaMap",
+            "name" : "main",
+            "loadAtlas" : "OfficeTiles.plist",
+            "tilesTexture" : "OfficeTiles.png",
+            "tilesName" : "Office",
+            "tilesExt" : "png",
+            "tilesMap" :
+            [
+                ["01", "05", "03", "00", "04", "02"],
+                ["01", "04", "03", "00", "04", "02"],
+                ["01", "04", "03", "00", "00", "02"]
+            ]
+        },
+        {
+            "type" : "AreaMap",
+            "name" : "room1",
+            "loadAtlas" : "OfficeTiles.plist",
+            "tilesTexture" : "OfficeTiles.png",
+            "tilesName" : "Office",
+            "tilesExt" : "png",
+            "tilesMap" :
+            [
+                ["01", "00", "05", "02"]
+            ]
+        },
+        {
+            "useFile" : "dreamKoala.json"
+        }
+    ],
+    "portals" :
+    [
+        {
+            "area" : "main",
+            "row" : 2,
+            "col" : 1,
+            "targetArea" : "room1",
+            "targetRow" : 0,
+            "targetCol" : 2,
+            "bidirectional" : true
+        }
+    ],
+    "objects" :
+    [
+        {
+            "type" : "Photocopier",
+            "area" : "main",
+            "row" : 1,
+            "col" : 3
+        },
+        {
+            "type" : "Table",
+            "area" : "main",
+            "row" : 2,
+            "col" : 5,
+            "item" : "MurderContract"
+        },
+        {
+            "type" : "Table",
+            "area" : "room1",
+            "row" : 0,
+            "col" : 0
+        }
+    ]
+}

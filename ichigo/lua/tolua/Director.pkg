@@ -1,0 +1,15 @@
+#include "Agent.h"
+
+namespace ichigo {
+        
+    class Director : public ichigo::Agent {
+                
+    public:
+        
+        virtual ~Director();     
+        static Director* getInstance();
+    };    
+}
+
+
+

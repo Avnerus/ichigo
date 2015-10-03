@@ -1,0 +1,84 @@
+{ 
+    "type" : "Director",
+    "firstScene" : "game",
+    "children" : 
+    [
+        {
+            "type" : "KoalaScene",
+            "name" : "game",
+            "position" : [0, 0],
+            "scale" : 1.0,
+            "angle" : 0.0,
+            "bgColor" : [0, 0, 0, 255],
+            "children" :
+            [
+                {
+                    "type" : "RealityLayer",
+                    "name" : "reality",
+                    "position" : [0, 0],
+                    "scale" : 1,
+                    "angle" : 0.0,
+                    "zOrder" : 0,
+                    "viewportPosMultiplier" : [1.0, 1.0],
+                    "bgColor": [48, 230, 220, 255],
+                    "clipToBounds" : true,
+                    "clippingSize" : [480, 320],
+                    "width": 480,
+                    "height": 320,
+                    "children" :
+                    [
+                        {
+                            "useFile" : "Nature.json"
+                        }                               
+                    ]
+                },
+                {
+                    "type" : "MainLayer",
+                    "name" : "dream",
+                    "position" : [0, 330],
+                    "scale" : 1,
+                    "angle" : 0.0,
+                    "zOrder" : 1,
+                    "clipToBounds" : true,
+                    "clippingSize" : [480, 320],
+                    "viewportPosMultiplier" : [1.0, 1.0],
+                    "children" :
+                    [
+                        {
+                            "useFile" : "OfficeMap.json"
+                        }
+                    ]
+                },
+                {   
+                    "type" : "KoalaOverlay",
+                    "name" : "uiOverlay",
+                    "zOrder" : 5,
+                    "viewportPosMultiplier" : [0, 0],
+                    "children" :
+                    [ 
+                        {
+                            "type" : "Sprite",
+                            "name" : "hudBG",
+                            "position" : [240, 307],
+                            "animations" :
+                            [
+                                {
+                                    "name" : "bg",
+                                    "frame" : "KoalaUIBar",
+                                    "ext" : "png"
+                                }
+                            ],
+                            "firstAnimation" : "bg",
+                            "children" :
+                            [
+                                {
+                                    "useFile" : "energyGauge.json"
+                                }
+                            ]
+                        }                    
+                    ]
+                }
+            ]
+        }
+    ]
+}

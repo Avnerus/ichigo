@@ -1,0 +1,36 @@
+{
+    "config" :
+    [     
+     {"name":"SCENES_FILE_NAME", "type":"string", "value":"scenes.json"},
+     
+     {"name":"REALITY_SWITCHER_MARGIN", "type":"float", "value":25.0},
+     {"name":"REALITY_SWITCHER_ANIM_SPEED", "type":"float", "value":300.0},
+     {"name":"REALITY_SWITCHER_BORDER_WIDTH", "type":"float", "value":10.0},
+     {"name":"HUDBG_REALITY_Y", "type":"float", "value":307.0},
+     {"name":"HUDBG_DREAM_Y", "type":"float", "value":13.0},
+     {"name":"HUDBG_ANIM_SPEED", "type":"float", "value":1640.0},
+     
+     {"name":"OFFICE_TILE_LIFT", "type":"string", "value":"03"},
+     {"name":"OFFICE_TILE_DOOR", "type":"string", "value":"05"},
+     {"name":"OFFICE_INTERACTION_DRAG_THRESHOLD", "type":"float", "value":3.0},
+     {"name":"OFFICE_MIN_X", "type":"float", "value":-70.0},
+     {"name":"OFFICE_MAX_X", "type":"float", "value":70.0},
+     {"name":"OFFICE_LIFT_ANIM", "type":"string", "value":"LiftDoors.json"},
+     {"name":"OFFICE_LIFT_OFFSET_X", "type":"float", "value":-30},
+     {"name":"OFFICE_LIFT_OFFSET_Y", "type":"float", "value":26},
+     {"name":"OFFICE_LIFT_WAIT_MAX", "type":"float", "value":7.0},
+     {"name":"OFFICE_LIFT_FLOOR_TIME", "type":"float", "value":1.0},
+     
+     {"name":"DKOALA_WALK_SPEED", "type":"float", "value":80.0},
+     {"name":"DKOALA_MOVE_THRESHOLD", "type":"float", "value":30.0},
+     {"name":"DKOALA_LIFT_INSIDE_X", "type":"float", "value":-30.0},
+     {"name":"DKOALA_LIFT_INSIDE_Y", "type":"float", "value":0.0},
+     {"name":"DKOALA_LIFT_ENTRY_X", "type":"float", "value":10.0},
+     {"name":"DKOALA_LIFT_ENTRY_Y", "type":"float", "value":-20.0},
+     {"name":"DKOALA_DOOR_INSIDE_Y", "type":"float", "value":-20.0},
+     {"name":"DKOALA_DOOR_X", "type":"float", "value":10.0},
+     
+     {"name":"ITEM_DRAG_OFFSET_X", "type":"float", "value":10.0},
+     {"name":"ITEM_DRAG_OFFSET_Y", "type":"float", "value":10.0}
+    ]
+}

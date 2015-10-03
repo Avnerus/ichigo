@@ -1,0 +1,179 @@
+{
+    "type" : "DreamKoala",
+    "name" : "dreamKoala",
+    "position" : [400, 300],
+    "scale" : 1.0,
+    "zOrder" : 3,
+    "alpha" : 1.0,
+    "radiusFromHeight" : true,
+    "loadAtlas" : "Koala.plist",
+    "animations" :
+    [
+        {
+            "name" : "standRight",
+            "frame" : "KoalaRight00",
+            "ext" : "png"  
+        },
+        {
+            "name" : "standLeft",
+            "frame" : "KoalaLeft00",
+            "ext" : "png"
+        },
+        {
+            "name" : "standIn",
+            "frame" : "KoalaIn00",
+            "ext" : "png"
+        },
+        {
+            "name" : "standOut",
+            "frame" : "KoalaOut11",
+            "ext" : "png"
+        },
+        {
+            "name" : "inside",
+            "frame" : "KoalaIn12",
+            "ext" : "png"
+        },
+        {
+            "name" : "insideOut",
+            "frame" : "KoalaOut00",
+            "ext" : "png"
+        },
+        {
+            "name" : "right",
+            "frame" : "KoalaRight",
+            "ext" : "png",
+            "frames" : 12,
+            "delay" : 0.05,
+            "loop" : true,
+            "alert" : true
+        },
+        {
+            "name" : "left",
+            "frame" : "KoalaLeft",
+            "ext" : "png",
+            "frames" : 12,
+            "delay" : 0.05,
+            "loop" : true,
+            "alert" : true
+        },
+        {
+            "name" : "in",
+            "frame" : "KoalaIn",
+            "ext" : "png",
+            "frames" : 13,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "out",
+            "frame" : "KoalaOut",
+            "ext" : "png",
+            "frames" : 12,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "l2r",
+            "frame" : "KoalaL2R",
+            "ext" : "png",
+            "frames" : 11,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "r2l",
+            "frame" : "KoalaR2L",
+            "ext" : "png",
+            "frames" : 11,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "i2l",
+            "frame" : "KoalaI2L",
+            "ext" : "png",
+            "frames" : 6,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "i2r",
+            "frame" : "KoalaI2R",
+            "ext" : "png",
+            "frames" : 6,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "l2i",
+            "frame" : "KoalaL2I",
+            "ext" : "png",
+            "frames" : 6,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "l2o",
+            "frame" : "KoalaL2R",
+            "ext" : "png",
+            "frames" : 6,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "r2i",
+            "frame" : "KoalaR2I",
+            "ext" : "png",
+            "frames" : 6,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "r2o",
+            "frame" : "KoalaR2L",
+            "ext" : "png",
+            "frames" : 6,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "o2l",
+            "frame" : "KoalaO2L",
+            "ext" : "png",
+            "frames" : 6,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        },
+        {
+            "name" : "o2r",
+            "frame" : "KoalaO2R",
+            "ext" : "png",
+            "frames" : 6,
+            "delay" : 0.1,
+            "loop" : false,
+            "alert" : true
+        }
+    ],
+    "firstAnimation" : "standRight",
+    "children" :
+    [
+        {
+            "type" : "Label",
+            "name" : "talkLabel",
+            "font" : "header.fnt",
+            "isVisible" : false
+        }
+    ]    
+}

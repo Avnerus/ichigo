@@ -1,0 +1,27 @@
+{
+    "type" : "Item",
+    "name" : "contract",
+    "desc" : "Rabbit Murder Contract",
+    "zOrder" : 0,
+    "position" : [0, 0],
+    "radiusFromWidth" : true,
+    "animations" :
+    [
+        {
+            "name" : "onTable",
+            "frame" : "doc_table",
+            "ext" : "png"
+        },
+        {
+            "name" : "inverntory",
+            "frame" : "doc_inventory",
+            "ext" : "png"
+        },
+        {
+            "name" : "drag",
+            "frame" : "doc_inventory",
+            "ext" : "png"
+        }
+    ],
+    "firstAnimation" : "onTable"
+}

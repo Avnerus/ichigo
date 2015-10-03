@@ -1,0 +1,123 @@
+חולם שירד במעלית כי צריך להחתים טופס
+ירד ענף
+
+יורד גשם, להתחבא מתחת לעלים
+לעשות פוק לעלים?
+
+
+------------
+
+Missions each level
+complete before you wake up.
+You can wake up:
+
+1. before completing the mission by doing something wrong - FAIL
+2. before completing the mission by timer up - FAIL
+3. after completing the mission by fault - SUCCESS
+4. after completing the mission by timer up - SUCESS
+
+Bonus dream??
+
+
+Levels change - get more complicated:
+
+1. More stuff in the dream affect reality
+2. More stuff in reality affect the dream
+3. More complicated missions in the dream
+
+
+Rain in reality - Must pee in dream
+Fire in reality - Should pee in dream
+
+Dream --> Reality
+-------
+Bird - phone
+rain --> Pee
+Put on stamp --> Crush a bug
+Elevator --> Branch
+
+
+Break the tree to get office supplies?
+Paper - part of tree. Pen - branch
+
+
+-----------------------------------------------New Ideas--------------------------------------------------
+
+You cannot die in the game. You advance in plot and rank.                                                |
+2 types measurements:
+1. Energy - gained by eating food. affects time it takes to complete tasks in the dream                  |
+2. Office rank
+
+Every time you fall asleep you have the chance the regain energy using the mini game -                   |
+Mini game - guide leavs to a huge koala mouth
+
+You get tasks by advancing in plot and talking.
+You have choice of which room to do the task in.
+You start doing the task and it does it automatically, 
+you switch to tree view to see what happens
+It's about to start raining? (getting cloudy) go to the room with the toilet.
+A bug is approaching? switch  task?
+Need energy? brace yourself
+
+To go up/down the tree you can take the stairs - takes energy.
+going down the elevator doesn't go down the tree (looks weird employees keep saying "hi!")
+
+
+----------------------------
+Fax?
+Energy = Sleep timer
+A mission can get interrupted in the middle because you wake up and then you have to start it from the top.
+Waste energy either on missions in the dream or stuff in reality.
+Bugs- eat your leaves
+Some kind of correlated probability between reality events and dream events
+
+Office Plot:
+-------------
+Some kind of office "Holy Grail"
+Employee of the month!
+Arch nemesis - Some kissup guy who is the current employee of the month
+Phone sales - Birds!
+
+
+Tree
+-----
+Tile based.
+Number of branches - as number of office floors.
+Move between sitting on each branch level, able to reach branches on the side and interact with them
+Leaves grow on branches
+Bugs climb up and eat leaves
+
+Cleaners give valuable tips.
+
+Quests
+-------
+There is a pool of quests. 
+Several quests can be active at the same time.
+A quest script file contains all of the behaviors and conditions related to that quest.
+A quest is given/triggered by a character or object.
+A quest is completed when a condition defined in a script is fulfilled, which provides experience.
+Any character can trigger only one quest at a time.
+
+There is an inventory of items which you can display on the screen and drag the item away. 
+It will be written what you're pointing at.
+Combining items?? UI??
+
+
+
+Nature
+-------
+
+Leaf Eating Beetle
+------------------
+Spawn beetle per interval + random
+Beetle chooses a target branch, the more leaves, the higher probability to choose.
+Climbs tree, once reaches branch starts eating
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+{
+    "type" : "Tree",
+    "name" : "tree",
+    "position" : [0,0],
+    "scale" : 1,
+    "angle" : 0.0,
+    "zOrder" : 1,
+    "loadAtlas" : "TreeTiles.plist",
+    "tilesTexture" : "TreeTiles.png",
+    "tilesName" : "tree",
+    "tilesExt" : "png",
+    "tilesMap" :
+    [
+        ["LB", "BL", "00"],
+        ["LB", "BB", "RB"],
+        ["00", "B0", "00"],
+        ["00", "BR", "RB"],
+        ["LB", "BB", "RB"],
+        ["00", "B0", "00"]
+    ]
+}
+

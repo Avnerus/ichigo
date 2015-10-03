@@ -1,0 +1,122 @@
+{ 
+    "type" : "Director",
+    "firstScene" : "menu",
+    "children" : 
+    [
+        {
+            "type" : "MenuScene",
+            "name" : "menu",
+            "children" :
+            [
+                {
+                    "type" : "MainLayer",
+                    "name" : "mainLayer",
+                    "children" :
+                    [
+                        {
+                            "type" : "Sprite",
+                            "name" : "bg",
+                            "position" : [240, 160],
+                            "scale" : 1,
+                            "zOrder" : 0,
+                            "animations" :
+                            [
+                                {
+                                    "name" : "bg",
+                                    "frame" : "MenuBG",
+                                    "ext" : "png"
+                                }
+                            ],
+                            "firstAnimation" : "bg"
+                        },
+                        {
+                            "type" : "Sprite",
+                            "name" : "logo",
+                            "position" : [240, 210],
+                            "scale" : 0.75,
+                            "zOrder" : 1,
+                            "animations" :
+                            [
+                                {  
+                                    "name" : "logo",
+                                    "frame" : "IchigoTesterLogo",
+                                    "ext" : "png" 
+                                }
+                            ],
+                            "firstAnimation" : "logo"
+                        },
+                        {
+                            "type" : "Button",
+                            "name" : "goScene1",
+                            "position" : [100, 120],
+                            "radiusFromWidth" : true,
+                            "scale" : 0.25,
+                            "zOrder" : 2,
+                            "animations" :
+                            [
+                                {  
+                                    "name" : "up",
+                                    "frame" : "MenuOption1_up",
+                                    "ext" : "png" 
+                                },
+                                {
+                                    "name" : "down",
+                                    "frame" : "MenuOption1_down",
+                                    "ext" : "png"
+                                }
+                            ],
+                            "firstAnimation" : "up"
+                        },
+                        {
+                            "type" : "Button",
+                            "name" : "goScene2",
+                            "position" : [240, 120],
+                            "radiusFromWidth" : true,
+                            "scale" : 0.25,
+                            "zOrder" : 2,
+                            "animations" :
+                            [
+                                {  
+                                    "name" : "up",
+                                    "frame" : "MenuOption2_up",
+                                    "ext" : "png" 
+                                },
+                                {
+                                    "name" : "down",
+                                    "frame" : "MenuOption2_down",
+                                    "ext" : "png"
+                                }
+                            ],
+                            "firstAnimation" : "up"
+                        },
+                        {
+                            "type" : "Button",
+                            "name" : "goScene3",
+                            "position" : [380, 120],
+                            "radiusFromWidth" : true,
+                            "scale" : 0.25,
+                            "zOrder" : 2,
+                            "animations" :
+                            [
+                                {  
+                                    "name" : "up",
+                                    "frame" : "MenuOption3_up",
+                                    "ext" : "png" 
+                                },
+                                {
+                                    "name" : "down",
+                                    "frame" : "MenuOption3_down",
+                                    "ext" : "png"
+                                }
+                            ],
+                            "firstAnimation" : "up"
+                        }
+                    ]
+                }
+            ]
+        },
+        {"useFile" : "Scene1.json"},
+        {"useFile" : "Scene2.json"},
+        {"useFile" : "Scene3.json"}
+    ]
+}

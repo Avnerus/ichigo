@@ -1,0 +1,38 @@
+{
+    "type" : "Sprite",
+    "zOrder" : 2,
+    "animations" :
+    [
+     {
+     "name" : "0",
+     "frame" : "Foliage0",
+     "ext" : "png"
+     },
+     {
+     "name" : "1",
+     "frame" : "Foliage1",
+     "ext" : "png"
+     },
+     {
+     "name" : "2",
+     "frame" : "Foliage2",
+     "ext" : "png"
+     },
+     {
+     "name" : "3",
+     "frame" : "Foliage3",
+     "ext" : "png"
+     },
+     {
+     "name" : "4",
+     "frame" : "Foliage4",
+     "ext" : "png"
+     },
+     {
+     "name" : "5",
+     "frame" : "Foliage5",
+     "ext" : "png"
+     }
+     ],
+    "firstAnimation" : "0"
+}

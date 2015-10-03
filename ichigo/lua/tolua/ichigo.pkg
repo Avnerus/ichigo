@@ -1,0 +1,7 @@
+$#include "LuaIchigo.h"
+
+
+
+$pfile "Director.pkg"
+$pfile "Character.pkg"
+$pfile "Agent.pkg"

@@ -1,0 +1,40 @@
+{
+    "type" : "BeetleSwarm",
+    "zOrder" : 3,
+    "climbSpeed" : 50,
+    "eatingSpeed" : 0.1,
+    "animations" :
+    [
+     {
+     "name" : "beetleSwarm1H",
+     "frame" : "BeetleSwarm1H",
+     "ext" : "png"
+     },
+     {
+     "name" : "beetleSwarm1V",
+     "frame" : "BeetleSwarm1V",
+     "ext" : "png"
+     },
+     {
+     "name" : "beetleSwarm2H",
+     "frame" : "BeetleSwarm2H",
+     "ext" : "png"
+     },
+     {
+     "name" : "beetleSwarm2V",
+     "frame" : "BeetleSwarm2V",
+     "ext" : "png"
+     },
+     {
+     "name" : "beetleSwarm3H",
+     "frame" : "BeetleSwarm3H",
+     "ext" : "png"
+     },
+     {
+     "name" : "beetleSwarm3V",
+     "frame" : "BeetleSwarm3V",
+     "ext" : "png"
+     }
+    ],
+    "firstAnimation" : "beetleSwarm1V"
+}

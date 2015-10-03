@@ -1,0 +1,258 @@
+{
+    "type" : "KoalaScene",
+    "name" : "scene3",
+    "position" : [0, 0],
+    "scale" : 1.0,
+    "angle" : 0.0,
+    "bgColor" : [0, 0, 0, 255],
+    "children" :
+    [
+        {
+            "type" : "MainLayer",
+            "name" : "reality",
+            "position" : [0, 0],
+            "scale" : 1,
+            "angle" : 0.0,
+            "zOrder" : 1,
+            "clipToBounds" : true,
+            "clippingSize" : [480, 320],
+            "viewportPosMultiplier" : [1.0, 1.0],
+            "children" :
+            [
+                {
+                    "type" : "Eucalyptus",
+                    "name" : "tree",
+                    "position" : [240, 160],
+                    "scale" : 1,
+                    "angle" : 0.0,
+                    "zOrder" : 6,
+                    "animations" :
+                    [
+                        {
+                            "name" : "pic",
+                            "frame" : "Eucalyptus",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "pic",
+                    "radiusFromWidth" : true
+                }
+            ]
+        },
+        {
+            "type" : "MainLayer",
+            "name" : "dream",
+            "position" : [0, 330],
+            "scale" : 1,
+            "angle" : 0.0,
+            "zOrder" : 0,
+            "clipToBounds" : true,
+            "clippingSize" : [480, 320],
+            "viewportPosMultiplier" : [1.0, 1.0],
+            "children" :
+            [
+                {
+                    "type" : "OfficeMap",
+                    "name" : "office",
+                    "position" : [-240, -160],
+                    "scale" : 1.0,
+                    "angle" : 0.0,
+                    "zOrder" : 0,
+                    "loadAtlas" : "OfficeTiles.plist",
+                    "tilesTexture" : "OfficeTiles.png",
+                    "tilesName" : "Office",
+                    "tilesExt" : "png",
+                    "tilesMap" :
+                    [
+                        ["01", "00", "03", "00", "04", "02"],
+                        ["01", "04", "03", "00", "04", "02"],
+                        ["01", "04", "03", "00", "00", "02"]
+                    ],
+                    "children" :
+                    [
+                        {
+                            "type" : "DreamKoala",
+                            "name" : "dreamKoala",
+                            "position" : [400, 300],
+                            "scale" : 1.0,
+                            "zOrder" : 3,
+                            "loadAtlas" : "Koala.plist",
+                            "animations" :
+                            [
+                                {
+                                    "name" : "standRight",
+                                    "frame" : "KoalaRight00",
+                                    "ext" : "png"  
+                                },
+                                {
+                                    "name" : "standLeft",
+                                    "frame" : "KoalaLeft00",
+                                    "ext" : "png"
+                                },
+                                {
+                                    "name" : "standIn",
+                                    "frame" : "KoalaIn00",
+                                    "ext" : "png"
+                                },
+                                {
+                                    "name" : "standOut",
+                                    "frame" : "KoalaOut11",
+                                    "ext" : "png"
+                                },
+                                {
+                                    "name" : "inside",
+                                    "frame" : "KoalaIn12",
+                                    "ext" : "png"
+                                },
+                                {
+                                    "name" : "insideOut",
+                                    "frame" : "KoalaOut00",
+                                    "ext" : "png"
+                                },
+                                {
+                                    "name" : "right",
+                                    "frame" : "KoalaRight",
+                                    "ext" : "png",
+                                    "frames" : 12,
+                                    "delay" : 0.1,
+                                    "loop" : true,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "left",
+                                    "frame" : "KoalaLeft",
+                                    "ext" : "png",
+                                    "frames" : 12,
+                                    "delay" : 0.1,
+                                    "loop" : true,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "in",
+                                    "frame" : "KoalaIn",
+                                    "ext" : "png",
+                                    "frames" : 13,
+                                    "delay" : 0.1,
+                                    "loop" : false,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "out",
+                                    "frame" : "KoalaOut",
+                                    "ext" : "png",
+                                    "frames" : 12,
+                                    "delay" : 0.1,
+                                    "loop" : false,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "l2r",
+                                    "frame" : "KoalaL2R",
+                                    "ext" : "png",
+                                    "frames" : 11,
+                                    "delay" : 0.1,
+                                    "loop" : false,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "r2l",
+                                    "frame" : "KoalaR2L",
+                                    "ext" : "png",
+                                    "frames" : 11,
+                                    "delay" : 0.1,
+                                    "loop" : false,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "i2l",
+                                    "frame" : "KoalaI2L",
+                                    "ext" : "png",
+                                    "frames" : 6,
+                                    "delay" : 0.1,
+                                    "loop" : false,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "i2r",
+                                    "frame" : "KoalaI2R",
+                                    "ext" : "png",
+                                    "frames" : 6,
+                                    "delay" : 0.1,
+                                    "loop" : false,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "l2i",
+                                    "frame" : "KoalaL2I",
+                                    "ext" : "png",
+                                    "frames" : 6,
+                                    "delay" : 0.1,
+                                    "loop" : false,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "r2i",
+                                    "frame" : "KoalaR2I",
+                                    "ext" : "png",
+                                    "frames" : 6,
+                                    "delay" : 0.1,
+                                    "loop" : false,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "o2l",
+                                    "frame" : "KoalaO2L",
+                                    "ext" : "png",
+                                    "frames" : 6,
+                                    "delay" : 0.1,
+                                    "loop" : false,
+                                    "alert" : true
+                                },
+                                {
+                                    "name" : "o2r",
+                                    "frame" : "KoalaO2R",
+                                    "ext" : "png",
+                                    "frames" : 6,
+                                    "delay" : 0.1,
+                                    "loop" : false,
+                                    "alert" : true
+                                }
+                            ],
+                            "firstAnimation" : "standRight"
+                        }
+                    ]
+                }
+            ]
+        },
+        {   
+            "type" : "KoalaOverlay",
+            "name" : "uiOverlay",
+            "zOrder" : 5,
+            "viewportPosMultiplier" : [0, 0],
+            "children" :
+            [
+                {
+                    "type" : "Button",
+                    "name" : "backButton",
+                    "position" : [60, 60],
+                    "radiusFromWidth" : true,
+                    "scale" : 0.25,
+                    "animations" :
+                    [
+                        {
+                            "name" : "up",
+                            "frame" : "BackButton_up",
+                            "ext" : "png"
+                        },
+                        {
+                            "name" : "down",
+                            "frame" : "BackButton_down",
+                            "ext" : "png"
+                        }
+                    ],
+                    "firstAnimation" : "up"
+                }
+            ]
+        }
+    ]
+}
